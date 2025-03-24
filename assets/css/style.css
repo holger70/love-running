@@ -17,14 +17,6 @@ body {
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
-
-h1 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
-
 /* Header */
 header {
     background-color: #ffffff;
@@ -41,18 +33,11 @@ header a {
     text-decoration: none;
     color: inherit;
 }
-
-/* Main content */
-main {
-    background-color: lightblue;
-    /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
-    margin-top: 47px;
-}
-
-/* Footer */
-footer {
-    background-color: orange;
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
 }
 #menu {
     font-size: 110%;
@@ -86,6 +71,31 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+
+
+
+/* Main content */
+main {
+    background-color: lightblue;
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    margin-top: 47px;
+}
+
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
 /*Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 nav {
