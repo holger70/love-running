@@ -204,6 +204,10 @@ hr {
   }
 }
 @media screen and (min-width: 1200px) {
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
     #benefits > div {
         flex: 1;  
     }
