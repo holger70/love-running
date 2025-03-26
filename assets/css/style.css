@@ -105,18 +105,7 @@ main {
 #cover-text < h3 {
   color: #ffffff;
 }
-/* Footer */
-#social-networks {
-  text-align: center;
-  padding: 20px 0;
-  display: flex;
-  justify-content: space-evenly;
-  list-style-type: none;
-}
-#social-networks i {
-  font-size: 160%;
-  padding: 5%;
-  color: #3a3a3a;
+
 }
 #reasons {
   width: 90%;
@@ -175,6 +164,26 @@ hr {
   #times h3 {
     color:#fafafa;
   }
+  /*Gallery page*/
+  #photos img {
+    width: 100%;
+    line-height: 1em;
+  }
+  #photos {
+    line-height: 0;
+  }
+  /* Footer */
+#social-networks {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+  color: #3a3a3a;
 
 /*Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
